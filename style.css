@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    overflow: hidden;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    width: 22%;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding: 25px;
+    cursor: pointer;
+
+}
+
+.image {
+    background-image: url(./images/image-equilibrium.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.cover {
+    background: hsl(178, 100%, 50%);
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.image:hover .cover {
+    background-image: url(./images/icon-view.svg);
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.equilibrium {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+
+.para {
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.price {
+    display: flex;
+    gap: 160px;
+}
+
+.eth {
+    display: flex;
+    gap: 5px;
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+
+.days {
+    display: flex;
+    gap: 5px;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background: hsl(215, 32%, 27%);
+}
+
+.profile {
+    display: flex;
+    column-gap: 40px;
+    text-align: center;
+}
+
+.avatar {
+    background-image: url(./images/image-avatar.png);
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-align: left;
+    border: 1px solid lightblue;
+}
+
+.name {
+    display: flex;
+    gap: 4px;
+    min-width: 270px;
+    align-items: center;
+    text-align: center;
+}
+
+.span-1 {
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+.span-2 {
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+.equilibrium:hover,
+.span-2:hover {
+    color: hsl(178, 100%, 50%);
+}
