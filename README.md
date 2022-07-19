@@ -12,7 +12,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Screenshot
 
-![](https://github.com/shikhars/nft-preview-card/blob/nondefault/images/Screenshot.png)
+![](https://github.com/shikhars/nft-preview-card/blob/nondefault/images/Screenshot-nft.png)
 
 
 ### Links
